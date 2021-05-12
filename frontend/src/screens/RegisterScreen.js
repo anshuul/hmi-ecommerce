@@ -86,7 +86,7 @@ function RegisterScreen(props) {
               to={redirect === "/" ? "signin" : "signin?redirect=" + redirect}
               className="button secondary text-center"
             >
-              Create your X-Casual account
+              Login to your X-Casual account
             </Link>
           </li>
         </ul>
