@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 module.exports = {
-  PORT: process.env.PORT || 5000,
+  PORT: process.env.PORT || 8080,
   MONGODB_URL:
     process.env.MONGODB_URL ||
     "mongodb+srv://anshul:abcd123@cluster0.xc7oe.mongodb.net/test",
